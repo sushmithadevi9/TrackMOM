@@ -2,11 +2,13 @@
 //  AppDelegate.swift
 //  ToDoApp
 //
-//  Created by Sushmitha Devi on 7/4/18.
+//  Created by Sushmitha Devi on 6/25/19.
 //  Copyright © 2018 Sushmitha Devi. All rights reserved.
 //
 
 import UIKit
+import UserNotifications
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        let center = UNUserNotificationCenter.current()
+        center.requestAuthorization(options: [.alert, .sound]) { (granted, error) in
+        }
         return true
     }
 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>914190648745-orc9d87p35dks2f6njiclh4elqm7iie7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.914190648745-orc9d87p35dks2f6njiclh4elqm7iie7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD5UxVI3TLnOuLU4bLPbXreIMrEY_eHJHo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>914190648745</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cognizant.ips.ios.ToDoApp</string>
+	<key>PROJECT_ID</key>
+	<string>minofmeeting</string>
+	<key>STORAGE_BUCKET</key>
+	<string>minofmeeting.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:914190648745:ios:80b9a10bbc6cf31f</string>
+	<key>DATABASE_URL</key>
+	<string>https://minofmeeting.firebaseio.com</string>
+</dict>
+</plist>
